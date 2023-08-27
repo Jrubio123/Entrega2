@@ -91,5 +91,31 @@ document.addEventListener("DOMContentLoaded", function() {
         dots: true // Activa los puntos de navegación
     });
 });
+//js de agendar
+const barberoSelect = document.getElementById("barbero");
+const fechaInput = document.getElementById("fecha");
+const horaInput = document.getElementById("hora");
+const clienteInput = document.getElementById("cliente");
+const agendarBtn = document.getElementById("agendarBtn");
+agendarBtn.addEventListener("click", function() {
+    const selectedBarbero = barberoSelect.value;
+    const fecha = fechaInput.value;
+    const hora = horaInput.value;
+    const cliente = clienteInput.value;
+    if (selectedBarbero && fecha && hora && cliente) {
+        const mensaje = `¡Hola ${selectedBarbero}! Tienes una cita agendada para el ${fecha} a las ${hora} con el cliente ${cliente}.`;
+        const encodedMensaje = encodeURIComponent(mensaje);
+        const telefonoBarbero = "573126204076";
+        const url = `https://wa.me/${telefonoBarbero}/?text=${encodedMensaje}`;
+        window.location.href = url;
+        const cita = {
+            barbero: selectedBarbero,
+            fecha: fecha,
+            hora: hora,
+            cliente: cliente
+        };
+        localStorage.setItem("cita", JSON.stringify(cita));
+    } else alert("Por favor, completa todos los campos antes de agendar la cita.");
+});
 
 //# sourceMappingURL=index.cea00a9b.js.map

@@ -247,4 +247,75 @@ section {
   margin-bottom: 10px;
 }
 
+#agendar {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.service {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+h3 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+label {
+  color: #555;
+  font-size: 16px;
+}
+
+select, input[type="date"], input[type="time"], input[type="text"] {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color .3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#agendar .service {
+  background-color: #f9f9f9;
+}
+
+#agendar h3 {
+  color: #007bff;
+}
+
+#agendar label {
+  color: #333;
+}
+
+#agendar select, #agendar input[type="date"], #agendar input[type="time"], #agendar input[type="text"] {
+  border-color: #007bff;
+}
+
+#agendar button {
+  background-color: #ff9800;
+}
+
+#agendar button:hover {
+  background-color: #f57c00;
+}
+
 /*# sourceMappingURL=index.748ad148.css.map */
