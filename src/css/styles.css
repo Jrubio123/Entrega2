@@ -4,6 +4,25 @@ body {
     font-family: Arial, sans-serif;
     overflow-x: hidden; /* Evitar desplazamiento horizontal */
 }
+/* Estilos para el banner */
+.banner {
+    background-color: grey;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2; /* Asegurar que el banner esté por debajo de las opciones del menú */
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
 
 /* Encabezado */
 header {
@@ -74,59 +93,12 @@ main {
 }
 
 
-
 /* Estilos para las secciones */
 section {
     margin-top: 50px; /* Elimina el margen superior */
     margin-left: -250px; /* Ajusta este valor según el ancho de tu menú */
     padding: 50px; /* Añade relleno para separar del borde de la ventana */
 }
-
-
-/* Estilos para el banner */
-.banner {
-    background-color: grey;
-    color: white;
-    padding: 10px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2; /* Asegurar que el banner esté por debajo de las opciones del menú */
-    
-}
-
-.navigation {
-    display: flex;
-    gap: 20px;
-}
-
-
-
-/* Estilos para las secciones */
-.sections {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding-top: 80px; /* Espacio para el banner */
-}
-
-.section {
-    background-color: white;
-    width: 100%;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    display: none; /* Ocultar todas las secciones */
-}
-
-.section.active {
-    display: block; /* Mostrar solo la sección activa */
-}
-
 
 /* Estilos para la sección de inicio */
 #inicio {
@@ -184,7 +156,6 @@ section {
 }
 
 
-
 /* Estilos para la sección de galería */
 #galeria {
     background-color: #f7f7f7;
@@ -237,9 +208,6 @@ section {
     height: auto;
 }
 
-
-
-
 /* Estilos para la sección de servicios */
 #servicios {
     background-color: #f7f7f7;
@@ -275,45 +243,44 @@ section {
     margin-bottom: 10px;
 }
 
-
-/* estilos de agendar*/
+/* Estilos para la sección de agendar */
 #agendar {
     background-color: #f7f7f7;
     padding: 50px 0;
-  }
-  
-  .service {
+}
+
+.service {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-  }
-  
-  h3 {
+}
+
+h3 {
     font-size: 24px;
     color: #333333;
     margin-bottom: 20px;
-  }
-  
-  label {
+}
+
+label {
     font-size: 16px;
     color: #555555;
-  }
-  
-  select,
-  input[type="date"],
-  input[type="time"],
-  input[type="text"] {
+}
+
+select,
+input[type="date"],
+input[type="time"],
+input[type="text"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #cccccc;
     border-radius: 5px;
     background-color: #f9f9f9;
-  }
-  
-  button {
+}
+
+button {
     background-color: #007bff;
     color: #ffffff;
     border: none;
@@ -321,111 +288,46 @@ section {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #0056b3;
-  }
-  
-  /* Colores para resaltar */
-  #agendar .service {
+}
+
+/* Colores para resaltar */
+#agendar .service {
     background-color: #f9f9f9;
-  }
-  
-  #agendar h3 {
+}
+
+#agendar h3 {
     color: #007bff;
-  }
-  
-  #agendar label {
+}
+
+#agendar label {
     color: #333333;
-  }
-  
-  #agendar select,
-  #agendar input[type="date"],
-  #agendar input[type="time"],
-  #agendar input[type="text"] {
+}
+
+#agendar select,
+#agendar input[type="date"],
+#agendar input[type="time"],
+#agendar input[type="text"] {
     border-color: #007bff;
-  }
-  
-  #agendar button {
+}
+
+#agendar button {
     background-color: #ff9800;
-  }
-  
-  #agendar button:hover {
+}
+
+#agendar button:hover {
     background-color: #f57c00;
-  }
-  
-
-  /* CSS reservas*/
-  #reservas {
-    background-color: #f4f4f4;
-    padding: 20px;
-  }
-  
-  #reservasContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-  }
-  
-  .cita-item {
-    background-color: #ffffff;
-    border-radius: 8px;
-    padding: 15px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .cita-item p {
-    margin: 0;
-    font-size: 16px;
-  }
-  
-  .cancelar-btn {
-    background-color: #ff6961;
-    border: none;
-    color: #ffffff;
-    padding: 8px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .cancelar-btn:hover {
-    background-color: #d1483e;
-  }
-
-  /* CSS contacto*/
-
-  /* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
+/* CSS contacto*/
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
+/* Estilos generales */
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
+
 
 section {
     padding: 40px;
@@ -493,4 +395,64 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+/* CSS de acerca */
+
+/* Estilos para la sección "Acerca" */
+#acerca {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Estilos para los nombres de los creadores */
+.names {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 10px;
+}
+
+/* Estilos para el botón de más información */
+.more-info {
+    margin-top: 20px;
+}
+
+.more-info a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.more-info a:hover {
+    background-color: #0056b3;
 }

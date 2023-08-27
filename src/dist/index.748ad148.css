@@ -4,6 +4,25 @@ body {
   overflow-x: hidden;
 }
 
+.banner {
+  color: #fff;
+  z-index: 2;
+  background-color: gray;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navigation {
+  gap: 20px;
+  display: flex;
+}
+
 header {
   color: #fff;
   background-color: gray;
@@ -73,45 +92,6 @@ section {
   margin-top: 50px;
   margin-left: -250px;
   padding: 50px;
-}
-
-.banner {
-  color: #fff;
-  z-index: 2;
-  background-color: gray;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.navigation {
-  gap: 20px;
-  display: flex;
-}
-
-.sections {
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  padding-top: 80px;
-  display: flex;
-}
-
-.section {
-  background-color: #fff;
-  width: 100%;
-  padding: 20px;
-  display: none;
-  box-shadow: 0 0 10px #0000001a;
-}
-
-.section.active {
-  display: block;
 }
 
 #inicio {
@@ -318,73 +298,6 @@ button:hover {
   background-color: #f57c00;
 }
 
-#reservas {
-  background-color: #f4f4f4;
-  padding: 20px;
-}
-
-#reservasContainer {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  display: grid;
-}
-
-.cita-item {
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 15px;
-  box-shadow: 0 3px 6px #0000001a;
-}
-
-.cita-item p {
-  margin: 0;
-  font-size: 16px;
-}
-
-.cancelar-btn {
-  color: #fff;
-  cursor: pointer;
-  background-color: #ff6961;
-  border: none;
-  border-radius: 5px;
-  padding: 8px 12px;
-  transition: background-color .3s;
-}
-
-.cancelar-btn:hover {
-  background-color: #d1483e;
-}
-
-body {
-  color: #333;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
-header {
-  color: #fff;
-  text-align: center;
-  background-color: #333;
-  padding: 10px 0;
-}
-
-nav ul {
-  padding: 0;
-  list-style: none;
-}
-
-nav ul li {
-  margin-right: 20px;
-  display: inline;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
 section {
   padding: 40px;
 }
@@ -449,6 +362,61 @@ footer {
   padding: 10px 0;
   position: absolute;
   bottom: 0;
+}
+
+#acerca {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.about {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.about p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.names {
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  display: flex;
+}
+
+.name {
+  color: #333;
+  margin: 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.more-info {
+  margin-top: 20px;
+}
+
+.more-info a {
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color .3s;
+  display: inline-block;
+}
+
+.more-info a:hover {
+  background-color: #0056b3;
 }
 
 /*# sourceMappingURL=index.748ad148.css.map */
