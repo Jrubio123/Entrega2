@@ -142,8 +142,42 @@
 
 
 
-        <section id="reservas"> <!-- Contenido de Ver Reservas aquí --> </section>
-        <section id="contacto"> <!-- Contenido de Contacto aquí --> </section>
+        <section id="reservas">
+            
+            <!-- Contenido de Ver Reservas aquí --> 
+            <h2>Reservas Agendadas</h2>
+            <div id="reservasContainer"></div>
+        </section>
+
+
+
+        <section id="contacto">
+            
+            <!-- Contenido de Contacto aquí --> 
+            <h2>Contacto</h2>
+            <div class="contacto-info">
+                <p>¡Estamos aquí para ayudarte! Si tienes alguna pregunta o comentario, no dudes en contactarnos.</p>
+                <p><strong>Nombre:</strong> Juan Pablo Rubio</p>
+                <p><strong>Correo electrónico:</strong> juanpablo@aplicacionesmoviles.com</p>
+                <p><strong>Teléfono:</strong> (123) 456-7890</p>
+            </div>
+            <div class="contacto-formulario">
+                <h3>Envíanos un mensaje</h3>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required="">
+                    
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required="">
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required=""></textarea>
+                    
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+        
+        </section>
         <section id="acerca"> <!-- Contenido de Acerca aquí --> </section>
     </main>
 </div>

@@ -151,3 +151,55 @@ agendarBtn.addEventListener("click", function () {
     alert("Por favor, completa todos los campos antes de agendar la cita.");
   }
 });
+
+
+//js de reservas
+
+window.addEventListener("load", () => {
+    const reservasContainer = document.getElementById("reservasContainer");
+    const citasAgendadas = JSON.parse(localStorage.getItem("citas")) || [];
+  
+    function mostrarCitasAgendadas() {
+      reservasContainer.innerHTML = ""; // Limpiar el contenido previo
+  
+      citasAgendadas.forEach(cita => {
+        const citaElement = document.createElement("div");
+        citaElement.classList.add("cita-item");
+  
+        const barberoElement = document.createElement("p");
+        barberoElement.textContent = `Barbero: ${cita.barbero}`;
+        citaElement.appendChild(barberoElement);
+  
+        const fechaElement = document.createElement("p");
+        fechaElement.textContent = `Fecha: ${cita.fecha}`;
+        citaElement.appendChild(fechaElement);
+  
+        const horaElement = document.createElement("p");
+        horaElement.textContent = `Hora: ${cita.hora}`;
+        citaElement.appendChild(horaElement);
+  
+        const clienteElement = document.createElement("p");
+        clienteElement.textContent = `Cliente: ${cita.cliente}`;
+        citaElement.appendChild(clienteElement);
+  
+        const cancelarBtn = document.createElement("button");
+        cancelarBtn.textContent = "Cancelar Cita";
+        cancelarBtn.addEventListener("click", () => cancelarCita(cita));
+        citaElement.appendChild(cancelarBtn);
+  
+        reservasContainer.appendChild(citaElement);
+      });
+    }
+  
+    function cancelarCita(cita) {
+      const index = citasAgendadas.indexOf(cita);
+      if (index !== -1) {
+        citasAgendadas.splice(index, 1);
+        localStorage.setItem("citas", JSON.stringify(citasAgendadas));
+        mostrarCitasAgendadas();
+      }
+    }
+  
+    mostrarCitasAgendadas();
+  });
+  
