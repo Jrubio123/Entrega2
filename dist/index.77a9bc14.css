@@ -1,0 +1,46 @@
+.fondo-azul {
+  background-color: #9acef8;
+}
+
+#banner {
+  text-align: center;
+  background-color: #2196f3;
+  max-width: 100%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+#banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+#contenido-centro {
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#contenido-centro img {
+  max-width: 100%;
+  height: auto;
+}
+
+#btnInicio {
+  color: #2196f3;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  width: 80%;
+  max-width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  display: block;
+}
+
+/*# sourceMappingURL=index.77a9bc14.css.map */

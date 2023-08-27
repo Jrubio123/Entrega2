@@ -1,0 +1,276 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Evitar desplazamiento horizontal */
+}
+
+/* Encabezado */
+header {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px; /* Tamaño del icono */
+    margin-left: -50px !important; /* Ajusta el valor negativo según sea necesario */
+}
+
+/* Menú lateral */
+.side-menu {
+    width: 0;
+    height: 100%;
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.3s;
+    z-index: 3; /* Asegurar que el menú esté por encima del banner */
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.side-menu li {
+    margin-bottom: 15px;
+}
+
+.side-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Mostrar el menú */
+.menu-open {
+    width: 200px;
+}
+
+/* Contenido principal */
+main {
+    margin-left: 250px;
+    padding: 20px;
+    transition: 0.3s;
+}
+.logo img {
+    max-width: 100px; /* Ancho máximo de la imagen */
+    height: auto; /* Altura ajustada automáticamente */
+}
+
+
+
+/* Estilos para las secciones */
+section {
+    margin-top: 50px; /* Elimina el margen superior */
+    margin-left: -250px; /* Ajusta este valor según el ancho de tu menú */
+    padding: 50px; /* Añade relleno para separar del borde de la ventana */
+}
+
+
+/* Estilos para el banner */
+.banner {
+    background-color: grey;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2; /* Asegurar que el banner esté por debajo de las opciones del menú */
+    
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* Estilos para las secciones */
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 80px; /* Espacio para el banner */
+}
+
+.section {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Ocultar todas las secciones */
+}
+
+.section.active {
+    display: block; /* Mostrar solo la sección activa */
+}
+
+
+/* Estilos para la sección de inicio */
+#inicio {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-header h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    font-size: 18px;
+    color: gray;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.promo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.promo p {
+    font-size: 18px;
+    color: #333;
+}
+
+.news h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.news ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.news li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+
+/* Estilos para la sección de galería */
+#galeria {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el carrusel de galería */
+.gallery-carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.gallery-item {
+    display: block;
+    float: left; /* Hace que las imágenes estén en una sola fila */
+    width: 300px; /* Ancho deseado para cada imagen */
+    margin-right: 10px; /* Espacio entre las imágenes */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.gallery-item:last-child {
+    margin-right: 0; /* No aplicar margen a la última imagen */
+}
+
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+/* Estilos para la sección de servicios */
+#servicios {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service {
+    margin-bottom: 20px; /* Espacio entre los servicios */
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.service p {
+    color: #666;
+}
+
+.service-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}

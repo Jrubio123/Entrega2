@@ -1,0 +1,21 @@
+20
+64D:\Descargas\Universidad\app moviles\Entrega2\src\css\styles.css133375800152089561 0
+56D:\Descargas\Universidad\app moviles\Entrega2\src\images133375798432195182 1
+74D:\Descargas\Universidad\app moviles\Entrega2\src\images\imagen_inicio.jpg133375795570587004 0
+58D:\Descargas\Universidad\app moviles\Entrega2\package.json133375782245404608 0
+50D:\Descargas\Universidad\app moviles\Entrega2\dist133375801057571307 1
+68D:\Descargas\Universidad\app moviles\Entrega2\dist\logo.c493797d.png133375801057410125 0
+49D:\Descargas\Universidad\app moviles\Entrega2\src133375790574822964 1
+52D:\Descargas\Universidad\app moviles\Entrega2\src\js133375790733779846 1
+53D:\Descargas\Universidad\app moviles\Entrega2\src\css133375791032373661 1
+60D:\Descargas\Universidad\app moviles\Entrega2\src\index.html133375797700512697 0
+59D:\Descargas\Universidad\app moviles\Entrega2\src\js\app.js133375793833044185 0
+65D:\Descargas\Universidad\app moviles\Entrega2\src\images\logo.png133375798030851631 0
+71D:\Descargas\Universidad\app moviles\Entrega2\dist\Entrega2.59712999.js133375801057535254 0
+75D:\Descargas\Universidad\app moviles\Entrega2\dist\Entrega2.59712999.js.map133375801057561484 0
+77D:\Descargas\Universidad\app moviles\Entrega2\dist\imagen_inicio.4e4abf8c.jpg133375801057499725 0
+69D:\Descargas\Universidad\app moviles\Entrega2\dist\index.77a9bc14.css133375801057339675 0
+73D:\Descargas\Universidad\app moviles\Entrega2\dist\index.77a9bc14.css.map133375801057510572 0
+68D:\Descargas\Universidad\app moviles\Entrega2\dist\index.8f0c9192.js133375801057535254 0
+72D:\Descargas\Universidad\app moviles\Entrega2\dist\index.8f0c9192.js.map133375801057561484 0
+61D:\Descargas\Universidad\app moviles\Entrega2\dist\index.html133375801057400120 0
