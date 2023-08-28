@@ -1,21 +1,208 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <!-- Encabezado y metadatos -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/index.77a9bc14.css">
+    <title>Barbería App</title>
 </head>
-<body id="inicio" class="fondo-azul">
-    <header>
-        <div id="banner" style="background-color: #2196f3">
-            <img src="/logo.c493797d.png">
+
+<body>
+    <header class="banner">
+        <div class="logo">
+            <img src="/logo.c493797d.png" alt="Logo de la barbería">
         </div>
+        <button class="menu-btn">&#9776;</button>
     </header>
 
-    <div id="contenido-centro">
-        <img src="/imagen_inicio.4e4abf8c.jpg">
-        <button id="btnInicio">Inicio</button>
-    </div>
+    <nav class="side-menu">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#agendar">Agendar</a></li>
+            <li><a href="#reservas">Ver Reservas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#acerca">Acerca</a></li>
+        </ul>
+    </nav>
+    <div class="sections">
+        <main>
 
+            <section id="inicio">
+                <!-- Contenido de Inicio aquí -->
+                <div class="section-header">
+                    <h2>Bienvenido a nuestra barbería</h2>
+                    <p>Donde el estilo y la elegancia se encuentran.</p>
+                </div>
+                <div class="section-content">
+                    <div class="promo">
+                        <img src="/imagen_inicio.4e4abf8c.jpg" alt="Promoción especial">
+                        <p>¡Nueva promoción! Obtén un 20% de descuento en tu primer corte.</p>
+                    </div>
+                    <div class="news">
+                        <h3>Últimas novedades</h3>
+                        <ul>
+                            <li>¡Nuevo horario extendido los fines de semana!</li>
+                            <li>Nuevos productos disponibles para el cuidado de la barba.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="galeria">
+                <div class="section-header">
+                    <h2>Galería</h2>
+                    <p>Explora nuestra galería de imágenes</p>
+                </div>
+                <div class="gallery-carousel">
+                    <div class="gallery-item">
+                        <img src="/img1.f05a4ee2.jpg" alt="Imagen 1" class="gallery-image">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/img2.430268e0.jpg" alt="Imagen 2" class="gallery-image">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/img3.f9ded1b4.jpg" alt="Imagen 3" class="gallery-image">
+                    </div>
+                    <!-- Agrega más imágenes aquí -->
+                </div>
+            </section>
+
+
+
+
+            <section id="servicios">
+                <!-- Contenido de Servicios aquí -->
+                <div class="section-header">
+                    <h2>Nuestros Servicios</h2>
+                    <p>Explora nuestros servicios de calidad</p>
+                </div>
+                <div class="services">
+                    <div class="service">
+                        <img src="/corte.cb0d04e8.jpg" alt="Corte de pelo" class="service-image">
+                        <h3>Corte de Pelo</h3>
+                        <p>El corte de pelo perfecto para ti.</p>
+                    </div>
+                    <div class="service">
+                        <img src="/barba.1e3d096e.jpg" alt="Arreglo de barba" class="service-image">
+                        <h3>Arreglo de Barba</h3>
+                        <p>Logra un aspecto cuidado y elegante.</p>
+                    </div>
+                    <div class="service">
+                        <img src="/peluqueria.3343ea1d.jpg" alt="Peluquería" class="service-image">
+                        <h3>Peluquería</h3>
+                        <p>Renueva tu estilo con nuestro servicio de peluquería.</p>
+                    </div>
+                    <div class="service">
+                        <img src="/tinte.0f24a08c.jpg" alt="tinte" class="service-image">
+                        <h3>Tinte</h3>
+                        <p>Renueva tu look con nuestra tinturación de cabello</p>
+                    </div>
+                    <!-- Agrega más servicios aquí -->
+                </div>
+            </section>
+
+
+            <section id="agendar">
+                <!-- Contenido de Agendar aquí -->
+
+
+
+                <div class="service">
+                    <h3>Agendar Cita</h3>
+                    <form id="agendarForm">
+                        <label for="barbero">Selecciona un barbero:</label>
+                        <select name="barbero" id="barbero">
+                            <option value="">Selecciona un barbero</option>
+                            <option value="jorge">Jorge</option>
+                            <option value="paco">Paco</option>
+                            <option value="luis">Luis</option>
+                        </select>
+                        <br>
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" name="fecha" id="fecha">
+                        <br>
+                        <label for="hora">Hora:</label>
+                        <input type="time" name="hora" id="hora">
+                        <br>
+                        <label for="cliente">Nombre del cliente:</label>
+                        <input type="text" name="cliente" id="cliente">
+                        <br>
+                        <button type="button" id="agendarBtn">Agendar cita</button>
+                    </form>
+                </div>
+
+
+
+            </section>
+
+
+
+
+
+            <section id="reservas">
+
+                <!-- Contenido de Ver Reservas aquí -->
+                <h2>Reservas Agendadas</h2>
+                <div id="reservasContainer"></div>
+            </section>
+
+
+
+            <section id="contacto">
+
+                <!-- Contenido de Contacto aquí -->
+                <h2>Contacto</h2>
+                <div class="contacto-info">
+                    <p>¡Estamos aquí para ayudarte! Si tienes alguna pregunta o comentario, no dudes en contactarnos.
+                    </p>
+                    <p><strong>Nombre:</strong> Juan Pablo Rubio</p>
+                    <p><strong>Correo electrónico:</strong> juanpablo@aplicacionesmoviles.com</p>
+                    <p><strong>Teléfono:</strong> (123) 456-7890</p>
+                </div>
+                <div class="contacto-formulario">
+                    <h3>Envíanos un mensaje</h3>
+                    <form action="#" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required="">
+
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required="">
+
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required=""></textarea>
+
+                        <button type="submit">Enviar mensaje</button>
+                    </form>
+                </div>
+
+            </section>
+
+
+            <section id="acerca">
+
+                <!-- Contenido de Acerca aquí -->
+                <div class="about">
+                    <h2>Acerca de Nosotros</h2>
+                    <p>trabajo para aplicaciones moviles, app hibrida.</p>
+                    <div class="names">
+                        <span class="name">Juan Pablo Rubio</span>
+                        <span class="name">Juan Pablo Palomino</span>
+                    </div>
+                    <div class="more-info">
+                        <a href="#">Más información</a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
     <script src="/index.8f0c9192.js"></script>
+
 <script src="/Entrega2.59712999.js"></script></body>
+
 </html>

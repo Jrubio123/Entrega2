@@ -57,7 +57,7 @@ document.addEventListener('click', (e) => {
 navLinks.forEach(link => {
     link.addEventListener('click', e => {
         e.preventDefault();
-        
+
         // Cerrar el menú
         sideMenu.classList.remove('menu-open');
 
@@ -125,31 +125,31 @@ const clienteInput = document.getElementById("cliente");
 const agendarBtn = document.getElementById("agendarBtn");
 
 agendarBtn.addEventListener("click", function () {
-  const selectedBarbero = barberoSelect.value;
-  const fecha = fechaInput.value;
-  const hora = horaInput.value;
-  const cliente = clienteInput.value;
+    const selectedBarbero = barberoSelect.value;
+    const fecha = fechaInput.value;
+    const hora = horaInput.value;
+    const cliente = clienteInput.value;
 
-  if (selectedBarbero && fecha && hora && cliente) {
-    const mensaje = `¡Hola ${selectedBarbero}! Tienes una cita agendada para el ${fecha} a las ${hora} con el cliente ${cliente}.`;
-    const encodedMensaje = encodeURIComponent(mensaje);
+    if (selectedBarbero && fecha && hora && cliente) {
+        const mensaje = `¡Hola ${selectedBarbero}! Tienes una cita agendada para el ${fecha} a las ${hora} con el cliente ${cliente}.`;
+        const encodedMensaje = encodeURIComponent(mensaje);
 
-    const telefonoBarbero = "573126204076";
-    const url = `https://wa.me/${telefonoBarbero}/?text=${encodedMensaje}`;
+        const telefonoBarbero = "573126204076";
+        const url = `https://wa.me/${telefonoBarbero}/?text=${encodedMensaje}`;
 
-    window.location.href = url;
+        window.location.href = url;
 
-    const cita = {
-      barbero: selectedBarbero,
-      fecha: fecha,
-      hora: hora,
-      cliente: cliente
-    };
+        const cita = {
+            barbero: selectedBarbero,
+            fecha: fecha,
+            hora: hora,
+            cliente: cliente
+        };
 
-    localStorage.setItem("cita", JSON.stringify(cita));
-  } else {
-    alert("Por favor, completa todos los campos antes de agendar la cita.");
-  }
+        localStorage.setItem("cita", JSON.stringify(cita));
+    } else {
+        alert("Por favor, completa todos los campos antes de agendar la cita.");
+    }
 });
 
 
@@ -158,48 +158,47 @@ agendarBtn.addEventListener("click", function () {
 window.addEventListener("load", () => {
     const reservasContainer = document.getElementById("reservasContainer");
     const citasAgendadas = JSON.parse(localStorage.getItem("citas")) || [];
-  
+
     function mostrarCitasAgendadas() {
-      reservasContainer.innerHTML = ""; // Limpiar el contenido previo
-  
-      citasAgendadas.forEach(cita => {
-        const citaElement = document.createElement("div");
-        citaElement.classList.add("cita-item");
-  
-        const barberoElement = document.createElement("p");
-        barberoElement.textContent = `Barbero: ${cita.barbero}`;
-        citaElement.appendChild(barberoElement);
-  
-        const fechaElement = document.createElement("p");
-        fechaElement.textContent = `Fecha: ${cita.fecha}`;
-        citaElement.appendChild(fechaElement);
-  
-        const horaElement = document.createElement("p");
-        horaElement.textContent = `Hora: ${cita.hora}`;
-        citaElement.appendChild(horaElement);
-  
-        const clienteElement = document.createElement("p");
-        clienteElement.textContent = `Cliente: ${cita.cliente}`;
-        citaElement.appendChild(clienteElement);
-  
-        const cancelarBtn = document.createElement("button");
-        cancelarBtn.textContent = "Cancelar Cita";
-        cancelarBtn.addEventListener("click", () => cancelarCita(cita));
-        citaElement.appendChild(cancelarBtn);
-  
-        reservasContainer.appendChild(citaElement);
-      });
+        reservasContainer.innerHTML = ""; // Limpiar el contenido previo
+
+        citasAgendadas.forEach(cita => {
+            const citaElement = document.createElement("div");
+            citaElement.classList.add("cita-item");
+
+            const barberoElement = document.createElement("p");
+            barberoElement.textContent = `Barbero: ${cita.barbero}`;
+            citaElement.appendChild(barberoElement);
+
+            const fechaElement = document.createElement("p");
+            fechaElement.textContent = `Fecha: ${cita.fecha}`;
+            citaElement.appendChild(fechaElement);
+
+            const horaElement = document.createElement("p");
+            horaElement.textContent = `Hora: ${cita.hora}`;
+            citaElement.appendChild(horaElement);
+
+            const clienteElement = document.createElement("p");
+            clienteElement.textContent = `Cliente: ${cita.cliente}`;
+            citaElement.appendChild(clienteElement);
+
+            const cancelarBtn = document.createElement("button");
+            cancelarBtn.textContent = "Cancelar Cita";
+            cancelarBtn.addEventListener("click", () => cancelarCita(cita));
+            citaElement.appendChild(cancelarBtn);
+
+            reservasContainer.appendChild(citaElement);
+        });
     }
-  
+
     function cancelarCita(cita) {
-      const index = citasAgendadas.indexOf(cita);
-      if (index !== -1) {
-        citasAgendadas.splice(index, 1);
-        localStorage.setItem("citas", JSON.stringify(citasAgendadas));
-        mostrarCitasAgendadas();
-      }
+        const index = citasAgendadas.indexOf(cita);
+        if (index !== -1) {
+            citasAgendadas.splice(index, 1);
+            localStorage.setItem("citas", JSON.stringify(citasAgendadas));
+            mostrarCitasAgendadas();
+        }
     }
-  
+
     mostrarCitasAgendadas();
-  });
-  
+});
