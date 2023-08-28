@@ -1,0 +1,458 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Evitar desplazamiento horizontal */
+}
+/* Estilos para el banner */
+.banner {
+    background-color: grey;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2; /* Asegurar que el banner esté por debajo de las opciones del menú */
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px; /* Tamaño del icono */
+    margin-right: 21px; /* Ajusta el valor negativo según sea necesario */
+}
+
+/* Menú lateral */
+.side-menu {
+    width: 0;
+    height: 100%;
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.3s;
+    z-index: 3; /* Asegurar que el menú esté por encima del banner */
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.side-menu li {
+    margin-bottom: 15px;
+}
+
+.side-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Mostrar el menú */
+.menu-open {
+    width: 200px;
+}
+
+/* Contenido principal */
+main {
+    margin-left: 250px;
+    padding: 20px;
+    transition: 0.3s;
+}
+.logo img {
+    max-width: 100px; /* Ancho máximo de la imagen */
+    height: auto; /* Altura ajustada automáticamente */
+}
+
+
+/* Estilos para las secciones */
+section {
+    margin-top: 50px; /* Elimina el margen superior */
+    margin-left: -250px; /* Ajusta este valor según el ancho de tu menú */
+    padding: 50px; /* Añade relleno para separar del borde de la ventana */
+}
+
+/* Estilos para la sección de inicio */
+#inicio {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-header h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    font-size: 18px;
+    color: gray;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.promo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.promo p {
+    font-size: 18px;
+    color: #333;
+}
+
+.news h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.news ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.news li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+/* Estilos para la sección de galería */
+#galeria {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el carrusel de galería */
+.gallery-carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.gallery-item {
+    display: block;
+    float: left; /* Hace que las imágenes estén en una sola fila */
+    width: 300px; /* Ancho deseado para cada imagen */
+    margin-right: 10px; /* Espacio entre las imágenes */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.gallery-item:last-child {
+    margin-right: 0; /* No aplicar margen a la última imagen */
+}
+
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la sección de servicios */
+#servicios {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service {
+    margin-bottom: 20px; /* Espacio entre los servicios */
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.service p {
+    color: #666;
+}
+
+.service-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de agendar */
+#agendar {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.service {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #555555;
+}
+
+select,
+input[type="date"],
+input[type="time"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Colores para resaltar */
+#agendar .service {
+    background-color: #f9f9f9;
+}
+
+#agendar h3 {
+    color: #007bff;
+}
+
+#agendar label {
+    color: #333333;
+}
+
+#agendar select,
+#agendar input[type="date"],
+#agendar input[type="time"],
+#agendar input[type="text"] {
+    border-color: #007bff;
+}
+
+#agendar button {
+    background-color: #ff9800;
+}
+
+#agendar button:hover {
+    background-color: #f57c00;
+}
+
+/* CSS contacto*/
+
+/* Estilos generales */
+
+
+
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos específicos de la página de contacto */
+.contacto-info {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacto-formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-formulario h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contacto-formulario label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contacto-formulario input,
+.contacto-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.contacto-formulario button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contacto-formulario button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* CSS de acerca */
+
+/* Estilos para la sección "Acerca" */
+#acerca {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Estilos para los nombres de los creadores */
+.names {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 10px;
+}
+
+/* Estilos para el botón de más información */
+.more-info {
+    margin-top: 20px;
+}
+
+.more-info a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.more-info a:hover {
+    background-color: #0056b3;
+}

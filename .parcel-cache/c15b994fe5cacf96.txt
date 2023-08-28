@@ -1,4 +1,4 @@
-6073
+6080
 88D:\Descargas\Universidad\app moviles\Entrega2\node_modules\regenerator-runtime\README.md133377174742242492 0
 117D:\Descargas\Universidad\app moviles\Entrega2\node_modules\caniuse-lite\data\features\justify-content-space-evenly.js133377174796776693 0
 87D:\Descargas\Universidad\app moviles\Entrega2\node_modules\posthtml-render\package.json133377174740193588 0
@@ -37,7 +37,7 @@
 76D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@msgpackr-extract133377187161622516 1
 84D:\Descargas\Universidad\app moviles\Entrega2\node_modules\css-select\lib\index.d.ts133377174766206389 0
 93D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\packager-js\lib\helpers.js133377174747948580 0
-50D:\Descargas\Universidad\app moviles\Entrega2\dist133375801057571307 1
+50D:\Descargas\Universidad\app moviles\Entrega2\dist133377205242303830 1
 97D:\Descargas\Universidad\app moviles\Entrega2\node_modules\type-fest\source\conditional-keys.d.ts133377174747109090 0
 74D:\Descargas\Universidad\app moviles\Entrega2\node_modules\chalk\readme.md133377174743373130 0
 79D:\Descargas\Universidad\app moviles\Entrega2\src\dist\Entrega2.3464ddca.js.map133376467739070318 0
@@ -173,7 +173,7 @@
 66D:\Descargas\Universidad\app moviles\Entrega2\src\images\barba.jpg133377169063324170 0
 105D:\Descargas\Universidad\app moviles\Entrega2\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map133377174760822847 0
 77D:\Descargas\Universidad\app moviles\Entrega2\src\dist\index.748ad148.css.map133376467739070318 0
-71D:\Descargas\Universidad\app moviles\Entrega2\dist\Entrega2.59712999.js133375801057535254 0
+71D:\Descargas\Universidad\app moviles\Entrega2\dist\Entrega2.59712999.js133377205242058514 0
 102D:\Descargas\Universidad\app moviles\Entrega2\node_modules\caniuse-lite\data\features\iframe-srcdoc.js133377174795970741 0
 74D:\Descargas\Universidad\app moviles\Entrega2\node_modules\xxhash-wasm\esm133377174743561233 1
 66D:\Descargas\Universidad\app moviles\Entrega2\src\images\corte.jpg133377169063636673 0
@@ -377,7 +377,7 @@
 86D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\utils\src\schema.js133377174765508406 0
 107D:\Descargas\Universidad\app moviles\Entrega2\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest.c133377174765103179 0
 108D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@swc\core\bindings\binding_core_wasm\package.json133377174746476445 0
-64D:\Descargas\Universidad\app moviles\Entrega2\src\css\styles.css133376467718646419 0
+64D:\Descargas\Universidad\app moviles\Entrega2\src\css\styles.css133377205235360280 0
 117D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\clean\Rule.js133377174759573808 0
 99D:\Descargas\Universidad\app moviles\Entrega2\node_modules\csso\lib\replace\property\font-weight.js133377174765930410 0
 80D:\Descargas\Universidad\app moviles\Entrega2\src\.parcel-cache\0baf1c120a729a05133376345385732498 0
@@ -1123,7 +1123,7 @@
 95D:\Descargas\Universidad\app moviles\Entrega2\node_modules\utility-types\dist\mapped-types.d.ts133377174751569926 0
 75D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@swc\helpers\cjs133377174766741290 1
 107D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@swc\helpers\cjs\_object_destructuring_empty.cjs133377174763891810 0
-68D:\Descargas\Universidad\app moviles\Entrega2\dist\logo.c493797d.png133375801057410125 0
+68D:\Descargas\Universidad\app moviles\Entrega2\dist\logo.c493797d.png133377205240710116 0
 93D:\Descargas\Universidad\app moviles\Entrega2\node_modules\utility-types\dist\mapped-types.js133377174742242492 0
 103D:\Descargas\Universidad\app moviles\Entrega2\node_modules\caniuse-lite\data\features\css-exclusions.js133377174771111404 0
 128D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\walker\create.js133377174754851805 0
@@ -1823,7 +1823,7 @@
 77D:\Descargas\Universidad\app moviles\Entrega2\node_modules\picocolors\LICENSE133377174737592318 0
 79D:\Descargas\Universidad\app moviles\Entrega2\node_modules\is-extglob\README.md133377174739197975 0
 111D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@swc\helpers\esm\_class_private_field_destructure.js133377174769354786 0
-61D:\Descargas\Universidad\app moviles\Entrega2\dist\index.html133375801057400120 0
+61D:\Descargas\Universidad\app moviles\Entrega2\dist\index.html133377205242303830 0
 91D:\Descargas\Universidad\app moviles\Entrega2\node_modules\picocolors\picocolors.browser.js133377174739167994 0
 90D:\Descargas\Universidad\app moviles\Entrega2\node_modules\css-tree\lib\syntax\node\Nth.js133377174781161145 0
 95D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@swc\helpers\lib\_async_generator.js133377174767793489 0
@@ -2437,7 +2437,7 @@
 99D:\Descargas\Universidad\app moviles\Entrega2\node_modules\json-parse-even-better-errors\LICENSE.md133377174740843566 0
 108D:\Descargas\Universidad\app moviles\Entrega2\node_modules\caniuse-lite\data\features\css-backdrop-filter.js133377174769803709 0
 109D:\Descargas\Universidad\app moviles\Entrega2\node_modules\css-select\node_modules\entities\lib\esm\encode.js133377174750275646 0
-75D:\Descargas\Universidad\app moviles\Entrega2\dist\Entrega2.59712999.js.map133375801057561484 0
+75D:\Descargas\Universidad\app moviles\Entrega2\dist\Entrega2.59712999.js.map133377205242098553 0
 83D:\Descargas\Universidad\app moviles\Entrega2\node_modules\js-yaml\lib\type\null.js133377174753524762 0
 115D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\optimizer-image\parcel-image.linux-x64-musl.node133377174769334797 0
 101D:\Descargas\Universidad\app moviles\Entrega2\node_modules\json-parse-even-better-errors\package.json133377174739187968 0
@@ -3191,6 +3191,7 @@
 115D:\Descargas\Universidad\app moviles\Entrega2\node_modules\csso\lib\restructure\prepare\createDeclarationIndexer.js133377174764307501 0
 98D:\Descargas\Universidad\app moviles\Entrega2\node_modules\css-tree\lib\lexer\generic-an-plus-b.js133377174778097855 0
 106D:\Descargas\Universidad\app moviles\Entrega2\node_modules\csso\lib\restructure\prepare\processSelector.js133377174766671309 0
+68D:\Descargas\Universidad\app moviles\Entrega2\dist\img1.f05a4ee2.jpg133377205240700509 0
 102D:\Descargas\Universidad\app moviles\Entrega2\node_modules\csso\lib\restructure\prepare\specificity.js133377174766930295 0
 73D:\Descargas\Universidad\app moviles\Entrega2\node_modules\braces\LICENSE133377174740823822 0
 77D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\graph\test133377174748279099 1
@@ -4833,7 +4834,7 @@
 111D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@swc\helpers\cjs\_class_extract_field_descriptor.cjs133377174752240561 0
 101D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@swc\helpers\cjs\_class_name_tdz_error.cjs133377174752618614 0
 104D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@swc\helpers\cjs\_class_private_field_get.cjs133377174753337812 0
-68D:\Descargas\Universidad\app moviles\Entrega2\dist\index.8f0c9192.js133375801057535254 0
+68D:\Descargas\Universidad\app moviles\Entrega2\dist\index.8f0c9192.js133377205242058514 0
 111D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@swc\helpers\cjs\_class_private_field_loose_base.cjs133377174753852695 0
 105D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@swc\helpers\cjs\_class_private_method_get.cjs133377174754820419 0
 106D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@swc\helpers\cjs\_class_private_method_init.cjs133377174755040183 0
@@ -5201,7 +5202,7 @@
 86D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\reporter-tracer\lib133377174739287967 1
 95D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\reporter-tracer\package.json133377174741442612 0
 86D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\reporter-tracer\src133377174740253564 1
-73D:\Descargas\Universidad\app moviles\Entrega2\dist\index.77a9bc14.css.map133375801057510572 0
+73D:\Descargas\Universidad\app moviles\Entrega2\dist\index.77a9bc14.css.map133377205240884805 0
 118D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\clean\index.js133377174756216531 0
 104D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\reporter-tracer\src\TracerReporter.js133377174740513569 0
 104D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\reporter-tracer\lib\TracerReporter.js133377174739488046 0
@@ -5486,6 +5487,7 @@
 122D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\error.js133377174760732514 0
 131D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\generic-urange.js133377174763254360 0
 124D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\generic.js133377174763501516 0
+68D:\Descargas\Universidad\app moviles\Entrega2\dist\img2.430268e0.jpg133377205241903674 0
 122D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\index.js133377174765043168 0
 122D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\Lexer.js133377174766000414 0
 106D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@babel\highlight\node_modules\has-flag\index.js133377174739297969 0
@@ -5819,7 +5821,7 @@
 86D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\events\src\index.js133377174745883270 0
 87D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\events\lib\errors.js133377174742877199 0
 86D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\events\lib\index.js133377174744357147 0
-69D:\Descargas\Universidad\app moviles\Entrega2\dist\index.77a9bc14.css133375801057339675 0
+69D:\Descargas\Universidad\app moviles\Entrega2\dist\index.77a9bc14.css133377205240750179 0
 85D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\diagnostic\LICENSE133377174738869553 0
 109D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\diagnostic\test\JSONCodeHighlights.test.js133377174742115605 0
 95D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\diagnostic\src\diagnostic.js133377174740773564 0
@@ -5976,6 +5978,7 @@
 89D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\cache\src\LMDBCache.js133377174747399936 0
 87D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\cache\lib\FSCache.js133377174739407982 0
 89D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\cache\lib\LMDBCache.js133377174746989014 0
+68D:\Descargas\Universidad\app moviles\Entrega2\dist\img3.f9ded1b4.jpg133377205240700509 0
 85D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\cache\lib\types.js133377174747801707 0
 86D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\bundler-default\lib133377174739267968 1
 90D:\Descargas\Universidad\app moviles\Entrega2\node_modules\@parcel\bundler-default\LICENSE133377174738065298 0
@@ -6067,8 +6070,12 @@
 68D:\Descargas\Universidad\app moviles\Entrega2\node_modules\.bin\svgo133377174818865495 0
 90D:\Descargas\Universidad\app moviles\Entrega2\node_modules\.bin\update-browserslist-db.cmd133377174818865495 0
 90D:\Descargas\Universidad\app moviles\Entrega2\node_modules\.bin\update-browserslist-db.ps1133377174818865495 0
-77D:\Descargas\Universidad\app moviles\Entrega2\dist\imagen_inicio.4e4abf8c.jpg133375801057499725 0
-72D:\Descargas\Universidad\app moviles\Entrega2\dist\index.8f0c9192.js.map133375801057561484 0
+69D:\Descargas\Universidad\app moviles\Entrega2\dist\barba.1e3d096e.jpg133377205240762082 0
+69D:\Descargas\Universidad\app moviles\Entrega2\dist\corte.cb0d04e8.jpg133377205241913831 0
+77D:\Descargas\Universidad\app moviles\Entrega2\dist\imagen_inicio.4e4abf8c.jpg133377205241923732 0
+72D:\Descargas\Universidad\app moviles\Entrega2\dist\index.8f0c9192.js.map133377205242098553 0
+74D:\Descargas\Universidad\app moviles\Entrega2\dist\peluqueria.3343ea1d.jpg133377205241903674 0
+69D:\Descargas\Universidad\app moviles\Entrega2\dist\tinte.0f24a08c.jpg133377205240710116 0
 61D:\Descargas\Universidad\app moviles\Entrega2\capturas\1.jpeg133376470545887476 0
 61D:\Descargas\Universidad\app moviles\Entrega2\capturas\3.jpeg133376470457482567 0
 61D:\Descargas\Universidad\app moviles\Entrega2\capturas\4.jpeg133376470519935065 0

@@ -41,9 +41,9 @@ header {
   cursor: pointer;
   background-color: #fff;
   border: none;
+  margin-right: 21px;
   padding: 5px 10px;
   font-size: 20px;
-  margin-left: -50px !important;
 }
 
 .side-menu {
