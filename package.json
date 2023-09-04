@@ -6,12 +6,17 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean:dev": "rimraf ./dist",
+    "clean:prod": "rimraf ./build",
+    "dev": "npm run clean:dev && parcel ./src/*.html",
+    "build": "npm run clean:prod && parcel build ./src/*.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "parcel": "^2.9.3"
+    "parcel": "^2.9.3",
+    "rimraf": "^5.0.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3"
